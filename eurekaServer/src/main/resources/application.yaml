@@ -1,6 +1,6 @@
 spring:
   application:
-    name: EurekaNamingServer # Application name for the Eureka naming server
+    name: Eureka-Server # Application name for the Eureka naming server
 
 server:
   port: 8761 # Port number for the server
