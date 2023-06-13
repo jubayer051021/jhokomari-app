@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: EurekaNamingServer # Application name for the Eureka naming server
+
+server:
+  port: 8761 # Port number for the server
+
+
+eureka:
+  client:
+    register-with-eureka: false # Disable registration with Eureka server
+    fetch-registry: false # Disable fetching registry information from Eureka server
+
