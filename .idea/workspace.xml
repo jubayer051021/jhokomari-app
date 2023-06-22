@@ -5,9 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="677c30f7-fd40-4240-a9cc-e5f5dea6f5b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/authentication-app.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/review-app.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateWay/src/main/java/com/jhokomari/apigateWay/config/GateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateWay/src/main/java/com/jhokomari/apigateWay/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/dto/LoginReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/dto/LoginResDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/dto/RegisterReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/exception/UserAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/mapper/UserMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/service/Imp/UserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/java/com/jhokomari/authenticationapp/utils/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-app/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-app/src/main/java/com/jhokomari/bookapp/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-app/src/main/java/com/jhokomari/bookapp/dto/InventoryReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-app/src/main/java/com/jhokomari/bookapp/dto/InventoryResDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-app/src/main/java/com/jhokomari/bookapp/dto/ReviewReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-app/src/main/java/com/jhokomari/bookapp/dto/ReviewResDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-app/src/main/java/com/jhokomari/bookapp/exception/BookAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/dto/InventoryReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/dto/InventoryResDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/entity/InventoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/exception/InventoryAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/exception/InventoryGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/exception/InventoryNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/mapper/InventoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/service/Imp/InventoryServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-app/src/main/java/com/Rokomari/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/controller/ReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/dto/ReviewReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/dto/ReviewResDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/entity/ReviewEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/exception/ReviewAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/exception/ReviewGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/exception/ReviewNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/mapper/ReviewMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/repository/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/service/Imp/ReviewServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-app/src/main/java/com/jhokomari/reviewapp/service/ReviewService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configServer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +70,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/api-gateWay">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/authentication-app">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/book-app">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/configServer">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eurekaServer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/inventory-app">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/inventory-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/review-app">
       <ProjectState />
     </projectState>
   </component>
@@ -27,17 +100,20 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="eurekaServer" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,12 +129,39 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "H:/jhokomari App/configServer",
+    "last_opened_file_path": "H:/jhokomari App/book-app/src/main/java/com/jhokomari/bookapp/dto",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EurekaServerApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\jhokomari App\book-app\src\main\java\com\jhokomari\bookapp\dto" />
+      <recent name="H:\jhokomari App\authentication-app\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jhokomari.bookapp.exception" />
+      <recent name="com.jhokomari.bookapp.dto" />
+      <recent name="com.jhokomari.reviewapp.dto" />
+      <recent name="com.jhokomari.reviewapp.exception" />
+      <recent name="com.Rokomari.inventoryservice.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BookAppApplication">
+    <configuration name="BookAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jhokomari.bookapp.BookAppApplication" />
+      <module name="book-app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jhokomari.bookapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Rokomari.configServer.ConfigServerApplication" />
       <module name="configServer.main" />
@@ -85,10 +188,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Rokomari.inventoryservice.InventoryServiceApplication" />
+      <module name="inventory-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rokomari.inventoryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jhokomari.reviewapp.ReviewAppApplication" />
+      <module name="review-app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jhokomari.reviewapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.BookAppApplication" />
+        <item itemvalue="Application.InventoryServiceApplication" />
+        <item itemvalue="Application.ReviewAppApplication" />
       </list>
     </recent_temporary>
   </component>

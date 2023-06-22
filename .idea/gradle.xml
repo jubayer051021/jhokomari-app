@@ -4,6 +4,30 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateWay" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/api-gateWay" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/authentication-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/authentication-app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/book-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/book-app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/configServer" />
         <option name="modules">
           <set>
@@ -18,6 +42,22 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eurekaServer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/inventory-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/inventory-app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/review-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/review-app" />
           </set>
         </option>
       </GradleProjectSettings>

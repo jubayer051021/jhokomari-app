@@ -1,0 +1,25 @@
+server:
+  port: 8083
+
+spring:
+#  zipkin:
+#    base-url: http://localhost:9411
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/book-jhokomari
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+#management:
+#  tracing:
+#    sampling:
+#      probability: 1.0
+#

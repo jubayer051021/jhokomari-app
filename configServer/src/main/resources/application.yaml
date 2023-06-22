@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mhabib1234/ConfigRepo-MidTerm # Config Server Git Configuration
+          uri: https://github.com/jubayer051021/jhokomariConfigRepo # Config Server Git Configuration
           username: jubayer051021
           password: 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
   

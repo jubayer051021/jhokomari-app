@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: Api-gateWay
+#  zipkin:
+#    base-url: http://localhost:9411
+  cloud:
+    #    config:
+    #      uri: http://localhost:8888
+    gateway:
+      routes:
+        - id: book-app
+          uri: lb://book-app
+          predicates:
+            - Path=/book/**
+server:
+  port: 9090
+eureka:
+  renewalPercentThreshold: 0.85
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

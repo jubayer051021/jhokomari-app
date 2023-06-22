@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authentication-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/authentication-app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/jhokomari App.iml" filepath="$PROJECT_DIR$/.idea/jhokomari App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/review-app.main.iml" />
     </modules>
   </component>
 </project>
